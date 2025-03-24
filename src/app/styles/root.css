@@ -1,0 +1,19 @@
+:root {
+  --background: linear-gradient(rgba(5, 38, 82, 1), rgba(45, 156, 219, 1));
+
+  --color-white: rgba(255, 255, 255, 1);
+  --color-white--opacity-01: rgba(233, 233, 243, 0.1);
+  --color-white--opacity-06: rgba(233, 233, 243, 0.6);
+
+  --font-family: "Geologica", sans-serif;
+  
+  --font-p1-medium: normal 500 3rem/120% var(--font-family);
+  --font-p2-medium: normal 500 2.6rem/120% var(--font-family);
+  --font-p4-medium: normal 500 2.2rem/120% var(--font-family);
+  --font-p3-medium: normal 2.4rem/120% var(--font-family);
+  --font-span-normal: normal 400 1.8rem/120% var(--font-family);
+  --font-span-medium: normal 500 1.8rem/120% var(--font-family);
+  --font-h3-semi-bold: normal 600 4.8rem/120% var(--font-family);
+  --font-h4-semi-bold: normal 600 3.6rem/130% var(--font-family);
+  --font-h4-bold: normal 700 10rem/130% var(--font-family);
+}

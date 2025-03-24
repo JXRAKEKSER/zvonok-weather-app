@@ -1,0 +1,80 @@
+.forecast-summary {
+  --text-color: var(--color-white);
+
+  display: grid;
+  grid-template-columns: minmax(6rem, 17.9rem) repeat(2, max-content);
+  align-items: center;
+  gap: 0 4.4rem;
+  width: fit-content;
+  height: fit-content;
+}
+
+.forecast-summary__condition-icon {
+  width: 100%;
+  grid-column: 1/2;
+  grid-row: 1;
+}
+
+.forecast-summary__tempreture {
+  font: var(--font-h4-bold);
+  color: var(--text-color);
+  grid-column: 2/3;
+}
+
+.forecast-summary__forecast-summary-info {
+  grid-column: 3/4;
+}
+
+.forecast-summary-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.forecast-summary-info__item {
+  font: var(--font-p3-medium);
+  color: var(--text-color);
+}
+
+.forecast-summary-info__item_capitelized_first-letter::first-letter {
+  text-transform: capitalize;
+}
+@container (max-width: 590px) {
+  .forecast-summary {
+    grid-template-columns: 0.5fr 0.5fr;
+    grid-template-rows: max-content max-content;
+    width: 100%;
+  }
+  .forecast-summary__condition-icon {
+    grid-row: 1/3;
+  }
+  .forecast-summary-info {
+    grid-column: 2/3;
+    grid-row: 2;
+  }
+  
+}
+@container (max-width: 490px) {
+  .forecast-summary {
+    gap: 0 2.5rem;
+  }
+  .forecast-summary__tempreture {
+    font-size: 7rem;
+  }
+
+  .forecast-summary-info {
+    gap: 0.5rem;
+  }
+}
+
+@container (max-width: 380px) {
+  .forecast-summary {
+    gap: 0 1rem;
+  }
+  .forecast-summary__tempreture {
+    font-size: 6rem;
+  }
+  .forecast-summary-info__item {
+    font-size: 2rem;
+  }
+}

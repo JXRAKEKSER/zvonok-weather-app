@@ -1,0 +1,12 @@
+@import url('./vendors/nullstyle.css');
+@import url('./root.css');
+
+body {
+  background: var(--background);
+  font-family: var(--font-family);
+  min-height: 100vh;
+}
+
+#app {
+  height: 100%;
+}
