@@ -10,7 +10,7 @@ export default defineConfig({
     vue(),
     vueDevTools(),
   ],
-  base: '/jxrakekser',
+  base: '/zvonok-weather-app',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
