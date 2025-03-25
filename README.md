@@ -1,33 +1,18 @@
 # weather-app
+Приложение для просмотра погодной сводки в городах России.
+Можно получить отчет о погоде на день и неделю, есть выборка популярных городов.
+Приложение использует API яндекс погоды,  данные городов берутся из json.
 
-This template should help get you started developing with Vue 3 in Vite.
+# ВНИМАНИЕ, деплой НА GH-PAGES может не работать по причине переезда на другой хостинг 
+## Запуск проекта
 
-## Recommended IDE Setup
+### Dev Mode
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+* npm i
+* npm run dev
 
-## Type Support for `.vue` Imports in TS
+### Production build
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
+* npm i
+* npm run build
+* npm run preview (запуск статик сервера)

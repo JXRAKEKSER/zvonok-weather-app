@@ -4,6 +4,7 @@
     id="Layer_1"
     viewBox="0 0 64 64"
     xmlns="http://www.w3.org/2000/svg"
+    width="60"
   >
     <title />
     <circle fill="#c4c4c4" cx="55" cy="34.63" r="3" />
